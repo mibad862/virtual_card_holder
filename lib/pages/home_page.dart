@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomAppBar(
         padding: EdgeInsets.zero,
         shape: const CircularNotchedRectangle(),
-        notchMargin: 10,
+        notchMargin: 8,
         clipBehavior: Clip.antiAlias,
         child: BottomNavigationBar(
           onTap: (index){
